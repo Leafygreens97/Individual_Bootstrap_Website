@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+h1 {
+	font-family: 'Kanit', sans-serif;
+	color: #1a1423;
+	text-align: center;
+	font-size: 3em;
+}
+h2 {
+	font-family: 'Kanit', sans-serif;
+	color: #3D314A;
+}
+p {
+	font-family: sans-serif, serif;
+}
+div{
+	margin: 20px;
+}
+.spcdiv{
+	margin: auto;
+}
+.center{
+	text-align: center;
+}
+
+.bio-block{
+	margin: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+.bio-images {
+	width:15%;
+	height: 15%;
+	margin: auto;
+	margin-bottom: 20px;
+	display: inline-block;
+	vertical-align:top;
+	border-radius: 100%;
+	border: solid 3px;
+	border-color: #05A8AA;
+	z-index: 5;
+}
+.bioText {
+	width: 80%;
+	height: 15%;
+	display: inline-block;
+	position: relative;
+}
+#bT_front {
+  	display: block;
+  	z-index: 5;
+  	position: relative;
+}
+#bT_behind {
+  	position: absolute;
+  	vertical-align:top;
+	width: 110%;
+	height: 110%;
+	z-index: 3;
+	top: -25px;
+	left: -30px;
+}
+
+/*Navigation Bar Styles*/
+.nav{
+	background-color: #1a1423;
+	z-index: 2;
+	top: 20px;
+	margin-right: 20px;
+	float: right;
+}
+.topnav{
+	background-color: #567731;
+	overflow: hidden;
+	z-index: 2;
+}
+.topnav a {
+  float: left;
+  color: #E1E5EE;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #838481;
+  color: white;
+}
+/*End Navigation Bar Styles*/
+
+/*Swf File*/
+#swf-holder {
+	position: relative;
+	margin: 0%;
+	left: -40px;
+}
+/*End Swf File*/
